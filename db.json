@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "name": "Rachel Vinograd",
+      "email": "rv8365@gmail.com",
+      "password": "12345678",
+      "isAdmin": true,
+      "id": 1
+    },
+    {
+      "name": "shira",
+      "email": "shira@gmail.com",
+      "password": "12345678",
+      "isAdmin": false,
+      "id": 2
+    },
+    {
+      "name": "Yair",
+      "email": "yair@gmail.com",
+      "password": "12345678",
+      "isAdmin": false,
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "Microsoft Earphones",
+      "price": 120,
+      "category": "Headphones",
+      "description": "The Microsoft new earphones with high quality",
+      "image": "/img/im1.png",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Microsoft Headphones",
+      "price": 200,
+      "category": "Headphones",
+      "description": "The Microsoft new headphones with high quality",
+      "image": "/img/im2.png"
+    },
+    {
+      "name": "leptop",
+      "price": 1222,
+      "category": "leptops",
+      "description": "dell I7 windows 10",
+      "image": "ffe",
+      "id": 3
+    },
+    {
+      "name": "leptop222",
+      "price": 2000,
+      "category": "computers",
+      "description": "very good computer",
+      "image": "o;j",
+      "id": 4
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "active": true,
+      "products": [
+        {
+          "name": "Microsoft Earphones",
+          "price": 120,
+          "category": "Headphones",
+          "description": "The Microsoft new earphones with high quality",
+          "image": "/img/im1.png",
+          "id": 1,
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "name": "Microsoft Headphones",
+          "price": 200,
+          "category": "Headphones",
+          "description": "The Microsoft new headphones with high quality",
+          "image": "/img/im2.png"
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "products": [
+        {
+          "name": "Microsoft Earphones",
+          "price": 120,
+          "category": "Headphones",
+          "description": "The Microsoft new earphones with high quality",
+          "image": "/img/im1.png",
+          "id": 1
+        }
+      ],
+      "active": true,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "products": [
+        {
+          "id": 2,
+          "name": "Microsoft Headphones",
+          "price": 200,
+          "category": "Headphones",
+          "description": "The Microsoft new headphones with high quality",
+          "image": "/img/im2.png"
+        },
+        {
+          "name": "leptop",
+          "price": 1222,
+          "category": "leptops",
+          "description": "dell I7 windows 10",
+          "image": "ffe",
+          "id": 3
+        }
+      ],
+      "active": true,
+      "id": 3
+    }
+  ]
+}
